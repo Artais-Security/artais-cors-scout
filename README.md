@@ -1,2 +1,9 @@
-# artais-cors-scout
-A small CLI that runs a tight set of high-signal CORS probes and outputs actionable findings.
+# Artais CORS Scout
+
+High-signal CORS misconfiguration and preflight auditor for offensive security.
+
+## Install
+
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -e .
